@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 float height = Float.parseFloat(String.valueOf(editTextHeight.getText())) / 100;
                 float weight = Float.parseFloat(String.valueOf(editTextWeight.getText()));
-                float bmi = weight /(height * height);67
+                float bmi = weight /(height * height);
                 textView.setText(String.valueOf(bmi));
 
             }
